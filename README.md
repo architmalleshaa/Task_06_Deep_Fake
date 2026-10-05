@@ -11,6 +11,7 @@ This experiment turns the validated Task 5 advisory analysis into two audio pipe
 - `source_script.txt` — exact 253-word spoken script, adapted from [Task 5's narrative](https://github.com/architmalleshaa/Task_05_Descriptive_Stats/blob/main/NARRATIVE.md).
 - `process_log.json` and `PROCESS_LOG.md` — actual commands, settings, versions, generation times, and the failed restricted probe.
 - `EVALUATION.md` — measured properties and explicit limits of perceptual assessment.
+- [AUDIO_REVIEW.md](AUDIO_REVIEW.md) — two-model automated transcript comparison, recorded mismatches, and reproducible review code.
 - `provenance_results.json` and `PROVENANCE.md` — metadata inspection and re-encoding experiment.
 
 ## Reproduce on macOS

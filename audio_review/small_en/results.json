@@ -1,0 +1,704 @@
+{
+  "review_type": "automated speech recognition; no perceptual listening claim",
+  "created_at": "2026-10-05T16:40:49.217259+00:00",
+  "model": "small.en",
+  "model_revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+  "model_sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a",
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "av": "19.0.1"
+  },
+  "settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "temperature": 0,
+    "language": "en",
+    "condition_on_previous_text": false,
+    "vad_filter": false,
+    "initial_prompt": null
+  },
+  "files": [
+    {
+      "file": "AI_generated_synthetic_A_monologue.mp3",
+      "sha256": "1cbb7275e646732788d6bf4312be553137a370833177f8b4d66cbf670226e90a",
+      "duration": 90.1150625,
+      "transcript": "This is AI-generated synthetic audio for a research assignment. The speakers are computer voices, not Syracuse coaches or players. What does the 2024 Syracuse women's lacrosse season tell us about winning more games? The team won 16 of 22 games. Three losses were decided by one goal. That makes close games a useful starting point, but it does not tell us whether offense or defense is the better training investment. What does the simple scoring experiment show? we add one goal to every Syracuse score while holding opponent's scores fixed. Those three losses become ties. Adding two goals changes them into wins. Preventing the same number of opponent goals changes the margins equally. These are arithmetic scenarios, not predictions of how games would unfold. Which player would you consider for a finishing experiment? Among players with at least 50 shots. Peyton Rowley has the largest headroom to a 50% shooting target. She scored 23 goals on 55 shots. At the same volume, the target corresponds to four and a half additional expected goals. Emma Tiro led actual scoring with 70 goals, but already exceeded the chosen conversion target. What should a coach take from that? Treat Raleigh as a conditional candidate for a measured finishing experiment. The target is an assumption, and extra goals could occur in games already won. These tables do not establish future roster availability, individual improvement during the season, or a causal route to two more wins. Keep those limits attached whenever this clip is shared.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.2800000000000002,
+          "text": " This is AI-generated synthetic audio",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 2.2800000000000002,
+          "end": 3.8200000000000003,
+          "text": " for a research assignment.",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 3.8200000000000003,
+          "end": 5.84,
+          "text": " The speakers are computer voices,",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 5.84,
+          "end": 8.0,
+          "text": " not Syracuse coaches or players.",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 8.0,
+          "end": 11.24,
+          "text": " What does the 2024 Syracuse women's lacrosse season",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 11.24,
+          "end": 13.200000000000001,
+          "text": " tell us about winning more games?",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 13.200000000000001,
+          "end": 15.84,
+          "text": " The team won 16 of 22 games.",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 15.84,
+          "end": 18.18,
+          "text": " Three losses were decided by one goal.",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 18.18,
+          "end": 21.0,
+          "text": " That makes close games a useful starting point,",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 21.0,
+          "end": 23.44,
+          "text": " but it does not tell us whether offense or defense",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 23.44,
+          "end": 25.28,
+          "text": " is the better training investment.",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 25.28,
+          "end": 27.900000000000002,
+          "text": " What does the simple scoring experiment show?",
+          "avg_logprob": -0.09011831102443152,
+          "no_speech_prob": 0.04561522230505943
+        },
+        {
+          "start": 27.900000000000002,
+          "end": 32.22,
+          "text": " we add one goal to every Syracuse score while holding opponent's scores fixed.",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 32.22,
+          "end": 36.620000000000005,
+          "text": " Those three losses become ties. Adding two goals changes them into wins.",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 36.620000000000005,
+          "end": 40.620000000000005,
+          "text": " Preventing the same number of opponent goals changes the margins equally.",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 40.620000000000005,
+          "end": 44.94,
+          "text": " These are arithmetic scenarios, not predictions of how games would unfold.",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 44.94,
+          "end": 48.06,
+          "text": " Which player would you consider for a finishing experiment?",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 48.06,
+          "end": 50.46,
+          "text": " Among players with at least 50 shots.",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 50.46,
+          "end": 54.620000000000005,
+          "text": " Peyton Rowley has the largest headroom to a 50% shooting target.",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 54.620000000000005,
+          "end": 57.58,
+          "text": " She scored 23 goals on 55 shots.",
+          "avg_logprob": -0.08791465188066165,
+          "no_speech_prob": 0.14409106969833374
+        },
+        {
+          "start": 57.58,
+          "end": 62.86,
+          "text": " At the same volume, the target corresponds to four and a half additional expected goals.",
+          "avg_logprob": -0.08132182263039253,
+          "no_speech_prob": 0.08575290441513062
+        },
+        {
+          "start": 62.86,
+          "end": 68.78,
+          "text": " Emma Tiro led actual scoring with 70 goals, but already exceeded the chosen conversion target.",
+          "avg_logprob": -0.08132182263039253,
+          "no_speech_prob": 0.08575290441513062
+        },
+        {
+          "start": 68.78,
+          "end": 70.62,
+          "text": " What should a coach take from that?",
+          "avg_logprob": -0.08132182263039253,
+          "no_speech_prob": 0.08575290441513062
+        },
+        {
+          "start": 70.62,
+          "end": 74.7,
+          "text": " Treat Raleigh as a conditional candidate for a measured finishing experiment.",
+          "avg_logprob": -0.08132182263039253,
+          "no_speech_prob": 0.08575290441513062
+        },
+        {
+          "start": 74.7,
+          "end": 79.18,
+          "text": " The target is an assumption, and extra goals could occur in games already won.",
+          "avg_logprob": -0.08132182263039253,
+          "no_speech_prob": 0.08575290441513062
+        },
+        {
+          "start": 79.18,
+          "end": 82.78,
+          "text": " These tables do not establish future roster availability,",
+          "avg_logprob": -0.08132182263039253,
+          "no_speech_prob": 0.08575290441513062
+        },
+        {
+          "start": 82.78,
+          "end": 87.18,
+          "text": " individual improvement during the season, or a causal route to two more wins.",
+          "avg_logprob": -0.08132182263039253,
+          "no_speech_prob": 0.08575290441513062
+        },
+        {
+          "start": 87.18,
+          "end": 90.22000000000001,
+          "text": " Keep those limits attached whenever this clip is shared.",
+          "avg_logprob": -0.2957868300951444,
+          "no_speech_prob": 0.0008698457386344671
+        }
+      ],
+      "raw_comparison": {
+        "reference_words": 258,
+        "recognized_words": 251,
+        "edit_distance": 19,
+        "word_error_rate": 0.07364341085271318,
+        "edits": [
+          {
+            "type": "deletion",
+            "reference_index": 23,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "deletion",
+            "reference_index": 24,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 25,
+            "reference": "four",
+            "recognized": "2024"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 39,
+            "reference": "sixteen",
+            "recognized": "16"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 41,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 42,
+            "reference": "two",
+            "recognized": "22"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 81,
+            "reference": "if",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 92,
+            "reference": "opponents",
+            "recognized": "opponent's"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 143,
+            "reference": "fifty",
+            "recognized": "50"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 145,
+            "reference": "payton",
+            "recognized": "peyton"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 153,
+            "reference": "fifty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 154,
+            "reference": "percent",
+            "recognized": "50"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 159,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 160,
+            "reference": "three",
+            "recognized": "23"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 163,
+            "reference": "fifty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 164,
+            "reference": "five",
+            "recognized": "55"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 182,
+            "reference": "tyrrell",
+            "recognized": "tiro"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 187,
+            "reference": "seventy",
+            "recognized": "70"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 204,
+            "reference": "rowley",
+            "recognized": "raleigh"
+          }
+        ]
+      },
+      "number_normalized_comparison": {
+        "reference_words": 258,
+        "recognized_words": 257,
+        "edit_distance": 4,
+        "word_error_rate": 0.015503875968992248,
+        "edits": [
+          {
+            "type": "deletion",
+            "reference_index": 81,
+            "reference": "if",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 145,
+            "reference": "payton",
+            "recognized": "peyton"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 182,
+            "reference": "tyrrell",
+            "recognized": "tiro"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 204,
+            "reference": "rowley",
+            "recognized": "raleigh"
+          }
+        ]
+      }
+    },
+    {
+      "file": "AI_generated_synthetic_B_interview.mp3",
+      "sha256": "e34b6047c4b2259432fcca3ff7d2a037c9c84ad5c3baeb92de55ff5b8d908756",
+      "duration": 89.630125,
+      "transcript": "This is AI-generated synthetic audio for a research assignment. The speakers are computer voices, not Syracuse coaches or players. What does the 2024 Syracuse women's lacrosse season tell us about winning more games? The team won 16 of 22 games. Three losses were decided by one goal. That makes close games a useful starting point, but it does not tell us whether offense or defense is the better training investment. What does the simple scoring experiment show? If we add one goal to every Syracuse score while holding opponent's scores fixed, those three losses become ties. Adding two goals changes them into wins, preventing the same number of opponent goals changes the margins equally. These are arithmetic scenarios, not predictions of how games would unfold. Which player would you consider for a finishing experiment? Among players with at least 50 shots, Peyton Rowley has the largest headroom to a 50% shooting target. She scored 23 goals on 55 shots. At the same volume, the target corresponds to four and a half additional expected goals. Emma Tiro led actual scoring with 70 goals, but already exceeded the chosen conversion target. What should a coach take from that? Treat Rowley as a conditional candidate for a measured finishing experiment. The target is an assumption, and extra goals could occur in games already won. These tables do not establish future roster availability, individual improvement during the season, or a causal route to two more wins, keep those limits attached whenever this clip is shared.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.0200000000000005,
+          "text": " This is AI-generated synthetic audio for a research assignment.",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 4.0200000000000005,
+          "end": 8.36,
+          "text": " The speakers are computer voices, not Syracuse coaches or players.",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 8.36,
+          "end": 13.6,
+          "text": " What does the 2024 Syracuse women's lacrosse season tell us about winning more games?",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 13.6,
+          "end": 16.36,
+          "text": " The team won 16 of 22 games.",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 16.36,
+          "end": 18.68,
+          "text": " Three losses were decided by one goal.",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 18.68,
+          "end": 23.12,
+          "text": " That makes close games a useful starting point, but it does not tell us whether offense",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 23.12,
+          "end": 25.6,
+          "text": " or defense is the better training investment.",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 25.6,
+          "end": 28.16,
+          "text": " What does the simple scoring experiment show?",
+          "avg_logprob": -0.11444912333455351,
+          "no_speech_prob": 0.007070566993206739
+        },
+        {
+          "start": 28.16,
+          "end": 32.66,
+          "text": " If we add one goal to every Syracuse score while holding opponent's scores fixed, those",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 32.66,
+          "end": 34.74,
+          "text": " three losses become ties.",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 34.74,
+          "end": 39.5,
+          "text": " Adding two goals changes them into wins, preventing the same number of opponent goals changes",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 39.5,
+          "end": 41.1,
+          "text": " the margins equally.",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 41.1,
+          "end": 45.22,
+          "text": " These are arithmetic scenarios, not predictions of how games would unfold.",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 45.22,
+          "end": 48.260000000000005,
+          "text": " Which player would you consider for a finishing experiment?",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 48.260000000000005,
+          "end": 53.7,
+          "text": " Among players with at least 50 shots, Peyton Rowley has the largest headroom to a 50%",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 53.7,
+          "end": 54.7,
+          "text": " shooting target.",
+          "avg_logprob": -0.1327255937569546,
+          "no_speech_prob": 0.14267019927501678
+        },
+        {
+          "start": 54.7,
+          "end": 57.720000000000006,
+          "text": " She scored 23 goals on 55 shots.",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 57.720000000000006,
+          "end": 62.82000000000001,
+          "text": " At the same volume, the target corresponds to four and a half additional expected goals.",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 62.82000000000001,
+          "end": 68.44,
+          "text": " Emma Tiro led actual scoring with 70 goals, but already exceeded the chosen conversion",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 68.44,
+          "end": 69.44,
+          "text": " target.",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 69.44,
+          "end": 70.44,
+          "text": " What should a coach take from that?",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 70.44,
+          "end": 74.44,
+          "text": " Treat Rowley as a conditional candidate for a measured finishing experiment.",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 74.44,
+          "end": 79.0,
+          "text": " The target is an assumption, and extra goals could occur in games already won.",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 79.0,
+          "end": 83.92,
+          "text": " These tables do not establish future roster availability, individual improvement during",
+          "avg_logprob": -0.13933213529261676,
+          "no_speech_prob": 0.046979811042547226
+        },
+        {
+          "start": 83.92,
+          "end": 88.46000000000001,
+          "text": " the season, or a causal route to two more wins, keep those limits attached whenever",
+          "avg_logprob": -0.14405532677968344,
+          "no_speech_prob": 0.06128407269716263
+        },
+        {
+          "start": 88.46000000000001,
+          "end": 89.6,
+          "text": " this clip is shared.",
+          "avg_logprob": -0.14405532677968344,
+          "no_speech_prob": 0.06128407269716263
+        }
+      ],
+      "raw_comparison": {
+        "reference_words": 258,
+        "recognized_words": 252,
+        "edit_distance": 17,
+        "word_error_rate": 0.06589147286821706,
+        "edits": [
+          {
+            "type": "deletion",
+            "reference_index": 23,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "deletion",
+            "reference_index": 24,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 25,
+            "reference": "four",
+            "recognized": "2024"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 39,
+            "reference": "sixteen",
+            "recognized": "16"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 41,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 42,
+            "reference": "two",
+            "recognized": "22"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 92,
+            "reference": "opponents",
+            "recognized": "opponent's"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 143,
+            "reference": "fifty",
+            "recognized": "50"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 145,
+            "reference": "payton",
+            "recognized": "peyton"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 153,
+            "reference": "fifty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 154,
+            "reference": "percent",
+            "recognized": "50"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 159,
+            "reference": "twenty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 160,
+            "reference": "three",
+            "recognized": "23"
+          },
+          {
+            "type": "deletion",
+            "reference_index": 163,
+            "reference": "fifty",
+            "recognized": ""
+          },
+          {
+            "type": "substitution",
+            "reference_index": 164,
+            "reference": "five",
+            "recognized": "55"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 182,
+            "reference": "tyrrell",
+            "recognized": "tiro"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 187,
+            "reference": "seventy",
+            "recognized": "70"
+          }
+        ]
+      },
+      "number_normalized_comparison": {
+        "reference_words": 258,
+        "recognized_words": 258,
+        "edit_distance": 2,
+        "word_error_rate": 0.007751937984496124,
+        "edits": [
+          {
+            "type": "substitution",
+            "reference_index": 145,
+            "reference": "payton",
+            "recognized": "peyton"
+          },
+          {
+            "type": "substitution",
+            "reference_index": 182,
+            "reference": "tyrrell",
+            "recognized": "tiro"
+          }
+        ]
+      }
+    }
+  ],
+  "decoder": "PyAV audio decode and mono float32 resampling to 16 kHz; source script not passed to ASR",
+  "normalization": "Lowercase; tokenize hyphens and punctuation; normalize apostrophes, listed digit spellings and percent symbols. No names or substantive words corrected."
+}

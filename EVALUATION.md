@@ -21,3 +21,7 @@ Neither file is video, so lip-sync drift, blinking, hands and visual temporal in
 No blinded audience test, real-voice comparison or validated detector was run. There is no measured answer to whether a casual listener would be fooled, or whether a specialist would notice more defects. The only “convincing enough” claim supported is that two playable, labeled speech artifacts were generated. The source-service probe failure and the loss of ordinary metadata are observed failure modes; prosodic concerns remain hypotheses.
 
 For a final listening review, check the disclosure at the start, the pronunciation of Syracuse and both player names, the distinction between one and two additional goals, the phrase “four and a half,” the transition into every analyst answer, and preservation of the final causal limitation. These are unresolved quality checks, not claimed observations.
+
+## Additional automated transcript review
+
+Two unprompted local ASR models were run against both original recordings. See [AUDIO_REVIEW.md](AUDIO_REVIEW.md) for exact recognition error rates, model disagreements, full transcripts, reproducible settings and remaining listening checks. The larger model reduced recognition mismatches; this does not establish human-perceived fidelity or realism.
