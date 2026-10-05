@@ -1,0 +1,43 @@
+{
+  "AI_generated_synthetic_A_monologue.mp3": {
+    "duration_seconds": 90.11501133786848,
+    "peak_fraction": 0.8184814453125,
+    "rms_fraction": 0.1617125965164108,
+    "clipped_samples": 0,
+    "decoded_samples": 1987036,
+    "metadata": ";FFMETADATA1\ntitle=AI-generated synthetic research audio\ncomment=Computer-synthesized stock voices. No real coach or player is speaking.\nencoder=Lavf61.7.100\n",
+    "c2pa_literal_marker_found": false,
+    "sha256": "1cbb7275e646732788d6bf4312be553137a370833177f8b4d66cbf670226e90a"
+  },
+  "AI_generated_synthetic_B_interview.mp3": {
+    "duration_seconds": 89.63006802721088,
+    "peak_fraction": 0.82183837890625,
+    "rms_fraction": 0.1538806620039418,
+    "clipped_samples": 0,
+    "decoded_samples": 1976343,
+    "metadata": ";FFMETADATA1\ntitle=AI-generated synthetic research audio\ncomment=Computer-synthesized stock voices. No real coach or player is speaking.\nencoder=Lavf61.7.100\n",
+    "c2pa_literal_marker_found": false,
+    "sha256": "e34b6047c4b2259432fcca3ff7d2a037c9c84ad5c3baeb92de55ff5b8d908756"
+  },
+  "transformation": {
+    "command": [
+      "<private-work>/vendor/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+      "-v",
+      "error",
+      "-y",
+      "-i",
+      "./artifacts/AI_generated_synthetic_B_interview.mp3",
+      "-map_metadata",
+      "-1",
+      "-codec:a",
+      "libmp3lame",
+      "-q:a",
+      "5",
+      "work/audio_checks/AI_generated_synthetic_B_metadata_stripped.mp3"
+    ],
+    "stripped_metadata": ";FFMETADATA1\nencoder=Lavf61.7.100\n",
+    "disclosure_title_retained": false,
+    "sha256_changed": true,
+    "limitation": "Generic metadata inspection and literal marker scan, not a C2PA signature validator or an AI detector. Absence of a marker does not prove absence of every possible watermark. No signed C2PA claim was created by this pipeline."
+  }
+}

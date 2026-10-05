@@ -1,0 +1,227 @@
+{
+  "started_utc": "2026-10-05T14:19:40.695795+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "os_version": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83\n",
+  "speech_tool": "/usr/bin/say; installed stock voices; no voice-model version exposed",
+  "ffmpeg_version": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers",
+  "cost": "Local installed speech synthesis; no paid API, no external upload, no free-tier quota encountered.",
+  "source_script_sha256": "0c6b7193dcffd2ecf0b094c67bce325b333b1d177f4b1180dba3e15ad29fca0b",
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Samantha",
+        "-r",
+        "175",
+        "-f",
+        "./source_script.txt",
+        "-o",
+        "<private-work>/audio/continuous.aiff"
+      ],
+      "elapsed_seconds": 0.8442796249873936,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Daniel",
+        "-r",
+        "165",
+        "-f",
+        "<private-work>/audio/part_00.txt",
+        "-o",
+        "<private-work>/audio/part_00.aiff"
+      ],
+      "elapsed_seconds": 0.4138579578138888,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Daniel",
+        "-r",
+        "165",
+        "-f",
+        "<private-work>/audio/part_01.txt",
+        "-o",
+        "<private-work>/audio/part_01.aiff"
+      ],
+      "elapsed_seconds": 0.725277833873406,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Samantha",
+        "-r",
+        "155",
+        "-f",
+        "<private-work>/audio/part_02.txt",
+        "-o",
+        "<private-work>/audio/part_02.aiff"
+      ],
+      "elapsed_seconds": 0.5706697499845177,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Daniel",
+        "-r",
+        "165",
+        "-f",
+        "<private-work>/audio/part_03.txt",
+        "-o",
+        "<private-work>/audio/part_03.aiff"
+      ],
+      "elapsed_seconds": 0.3999918329063803,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Samantha",
+        "-r",
+        "155",
+        "-f",
+        "<private-work>/audio/part_04.txt",
+        "-o",
+        "<private-work>/audio/part_04.aiff"
+      ],
+      "elapsed_seconds": 0.9787911248859018,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Daniel",
+        "-r",
+        "165",
+        "-f",
+        "<private-work>/audio/part_05.txt",
+        "-o",
+        "<private-work>/audio/part_05.aiff"
+      ],
+      "elapsed_seconds": 0.4093840420246124,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Samantha",
+        "-r",
+        "155",
+        "-f",
+        "<private-work>/audio/part_06.txt",
+        "-o",
+        "<private-work>/audio/part_06.aiff"
+      ],
+      "elapsed_seconds": 0.5969334160909057,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Daniel",
+        "-r",
+        "165",
+        "-f",
+        "<private-work>/audio/part_07.txt",
+        "-o",
+        "<private-work>/audio/part_07.aiff"
+      ],
+      "elapsed_seconds": 0.3965583750978112,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/say",
+        "-v",
+        "Samantha",
+        "-r",
+        "155",
+        "-f",
+        "<private-work>/audio/part_08.txt",
+        "-o",
+        "<private-work>/audio/part_08.aiff"
+      ],
+      "elapsed_seconds": 0.5991503749974072,
+      "return_code": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<private-work>/vendor/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+        "-y",
+        "-i",
+        "<private-work>/audio/continuous.aiff",
+        "-metadata",
+        "title=AI-generated synthetic research audio",
+        "-metadata",
+        "comment=Computer-synthesized stock voices. No real coach or player is speaking.",
+        "-codec:a",
+        "libmp3lame",
+        "-q:a",
+        "3",
+        "./artifacts/AI_generated_synthetic_A_monologue.mp3"
+      ],
+      "elapsed_seconds": 0.1304287500679493,
+      "return_code": 0,
+      "stderr": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers\n  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)\n  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-postproc --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb\n  libavutil      59. 39.100 / 59. 39.100\n  libavcodec     61. 19.100 / 61. 19.100\n  libavformat    61.  7.100 / 61.  7.100\n  libavdevice    61.  3.100 / 61.  3.100\n  libavfilter    10.  4.100 / 10.  4.100\n  libswscale      8.  3.100 /  8.  3.100\n  libswresample   5.  3.100 /  5.  3.100\n  libpostproc    58.  3.100 / 58.  3.100\n[aist#0:0/pcm_s16be @ 0x13861a6e0] Guessed Channel Layout: mono\nInput #0, aiff, from '<private-work>/audio/continuous.aiff':\n  Duration: 00:01:30.12, start: 0.000000, bitrate: 353 kb/s\n  Stream #0:0: Audio: pcm_s16be (twos / 0x736F7774), 22050 Hz, mono, s16, 352 kb/s\nStream mapping:\n  Stream #0:0 -> #0:0 (pcm_s16be (native) -> mp3 (libmp3lame))\nPress [q] to stop, [?] for help\nOutput #0, mp3, to './artifacts/AI_generated_synthetic_A_monologue.mp3':\n  Metadata:\n    TIT2            : AI-generated synthetic research audio\n    comment         : Computer-synthesized stock voices. No real coach or player is speaking.\n    TSSE            : Lavf61.7.100\n  Stream #0:0: Audio: mp3, 22050 Hz, mono, s16p\n      Metadata:\n        encoder         : Lavc61.19.100 libmp3lame\n[out#0/mp3 @ 0x13861a9b0] video:0KiB audio:767KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.046579%\nsize=     768KiB time=00:01:30.11 bitrate=  69.8kbits/s speed= 743x    \n"
+    },
+    {
+      "command": [
+        "<private-work>/vendor/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+        "-y",
+        "-f",
+        "concat",
+        "-safe",
+        "0",
+        "-i",
+        "<private-work>/audio/concat.txt",
+        "-metadata",
+        "title=AI-generated synthetic research audio",
+        "-metadata",
+        "comment=Computer-synthesized stock voices. No real coach or player is speaking.",
+        "-codec:a",
+        "libmp3lame",
+        "-q:a",
+        "3",
+        "./artifacts/AI_generated_synthetic_B_interview.mp3"
+      ],
+      "elapsed_seconds": 0.12697208300232887,
+      "return_code": 0,
+      "stderr": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers\n  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)\n  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-postproc --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb\n  libavutil      59. 39.100 / 59. 39.100\n  libavcodec     61. 19.100 / 61. 19.100\n  libavformat    61.  7.100 / 61.  7.100\n  libavdevice    61.  3.100 / 61.  3.100\n  libavfilter    10.  4.100 / 10.  4.100\n  libswscale      8.  3.100 /  8.  3.100\n  libswresample   5.  3.100 /  5.  3.100\n  libpostproc    58.  3.100 / 58.  3.100\n[aist#0:0/pcm_s16be @ 0x15be1b7a0] Guessed Channel Layout: mono\nInput #0, concat, from '<private-work>/audio/concat.txt':\n  Duration: N/A, start: 0.000000, bitrate: 352 kb/s\n  Stream #0:0: Audio: pcm_s16be (twos / 0x736F7774), 22050 Hz, mono, s16, 352 kb/s\nStream mapping:\n  Stream #0:0 -> #0:0 (pcm_s16be (native) -> mp3 (libmp3lame))\nPress [q] to stop, [?] for help\nOutput #0, mp3, to './artifacts/AI_generated_synthetic_B_interview.mp3':\n  Metadata:\n    TIT2            : AI-generated synthetic research audio\n    comment         : Computer-synthesized stock voices. No real coach or player is speaking.\n    TSSE            : Lavf61.7.100\n  Stream #0:0: Audio: mp3, 22050 Hz, mono, s16p\n      Metadata:\n        encoder         : Lavc61.19.100 libmp3lame\n[out#0/mp3 @ 0x15be1bb20] video:0KiB audio:782KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.045678%\nsize=     783KiB time=00:01:29.63 bitrate=  71.5kbits/s speed= 747x    \n"
+    }
+  ],
+  "finished_utc": "2026-10-05T14:19:46.918716+00:00",
+  "generation_wall_seconds": 6.192295165732503,
+  "artifacts": {
+    "AI_generated_synthetic_B_interview.mp3": {
+      "bytes": 801620,
+      "sha256": "e34b6047c4b2259432fcca3ff7d2a037c9c84ad5c3baeb92de55ff5b8d908756"
+    },
+    "AI_generated_synthetic_A_monologue.mp3": {
+      "bytes": 786125,
+      "sha256": "1cbb7275e646732788d6bf4312be553137a370833177f8b4d66cbf670226e90a"
+    }
+  }
+}
